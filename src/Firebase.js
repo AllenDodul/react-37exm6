@@ -7,9 +7,11 @@ const firerbaseAp = firebase.initialized ({
     storageBucket: "chatapp-4454f.appspot.com",
     messagingSenderId: "23985746781",
     appId: "1:23985746781:web:99689b0c18eee9bab02eb4",
-      measurementId: "G-RWY2E514SE"
+    measurementId: "G-RWY2E514SE"
 });
 
  
 const db = firerbaseApp.firestore();
 const auth = firebase.auth();
+
+export { db, auth };
