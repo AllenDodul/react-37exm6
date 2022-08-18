@@ -9,5 +9,7 @@ const firerbaseAp = firebase.initialized ({
     appId: "1:23985746781:web:99689b0c18eee9bab02eb4",
       measurementId: "G-RWY2E514SE"
 });
+
  
-const db = firerbaseApp.firestor()
+const db = firerbaseApp.firestore();
+const auth = firebase.auth();
